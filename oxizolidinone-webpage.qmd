@@ -1,0 +1,468 @@
+---
+title: "Penicillins and β-Lactamase Inhibitors"
+subtitle: "Chapter 20"
+author:
+  - name: Ryan K. Shields
+  - name: Yohei Doi
+date: 2024-01-01
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/vancouver.csl
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-fold: true
+    theme: cosmo
+    css: styles.css
+---
+
+# Short View Summary {.unnumbered}
+
+::: {.callout-note title="Quick Reference: Penicillin Dosing"}
+
+**Penicillin G**
+
+- Usual Adult Dose: 8–24 Million Units/Day Intravenously (IV) in Equally Divided Doses Every 4–6 Hours
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: poor
+- Adverse effects: hypersensitivity reaction, hyperkalemia (potassium salt), hypokalemia (sodium salt)
+
+**Penicillin V**
+
+- Usual Adult Dose: 250–500 mg Every 6–12 Hours Orally
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: poor
+- Adverse effects: hypersensitivity reaction, nausea/vomiting
+
+**Oxacillin**
+
+- Usual Adult Dose: 2 g Every 4 Hours IV
+- Renal and hepatic failure: no adjustment
+- CSF penetration: poor
+- Adverse effects: hypersensitivity reaction, hepatotoxicity, interstitial nephritis
+
+**Nafcillin**
+
+- Usual Adult Dose: 2 g Every 4 Hours IV
+- Renal and hepatic failure: no adjustment
+- CSF penetration: low
+- Adverse effects: hypersensitivity reaction, interstitial nephritis, hepatotoxicity, hypokalemia
+
+**Ampicillin**
+
+- Usual Adult Dose: 2 g Every 4–6 Hours IV
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: low
+- Adverse effects: hypersensitivity reaction
+
+**Ampicillin-Sulbactam**
+
+- Usual Adult Dose: 1.5–3 g Every 6 Hours IV
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: low
+- Adverse effects: hypersensitivity reaction, diarrhea
+
+**Amoxicillin**
+
+- Usual Adult Dose: 500 mg to 1 g Every 8–12 Hours Orally
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: low
+- Adverse effects: hypersensitivity reaction
+
+**Amoxicillin-Clavulanate**
+
+- Usual Adult Dose: 500 mg Every 8 Hours Orally or 875 mg Every 12 Hours Orally
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: low
+- Adverse effects: hypersensitivity reaction, diarrhea
+
+**Piperacillin-Tazobactam**
+
+- Usual Adult Dose: 3.375–4.5 g Every 6–8 Hours IV
+- Renal and hepatic failure: decrease dose in renal failure
+- CSF penetration: low
+- Adverse effects: hypersensitivity reaction, diarrhea
+
+:::
+
+# Introduction to Penicillins
+
+Penicillin was discovered by Alexander Fleming from *Penicillium notatum* (now *Penicillium chrysogenum*) in 1928 [@Fleming1929]. The subsequent work of Florey, Chain, and associates to isolate penicillin made possible the commercial production of penicillin G [@Chain1940]. By the middle of the 1940s, penicillin G was available for use in the United Kingdom and the United States, thus initiating the modern antibiotic era.
+
+# Chemistry
+
+The basic structure of penicillins is a nucleus consisting of a thiazolidine ring, the β-lactam ring, and a side chain (@fig-penicillin-structure). The core ring structures, particularly the β-lactam ring, are essential for antibacterial activity. The side chain determines in large part the antibacterial spectrum and pharmacologic properties of each penicillin agent.
+
+![Structure of penicillin and site of β-lactamase attack. The thiazolidine ring (1) and β-lactam ring (2) form the core structure. The site of penicillinase (β-lactamase) attack opens the β-lactam ring, converting benzylpenicillin to benzylpenicilloic acid.](images/fig20-1-06.png){#fig-penicillin-structure}
+
+Emergence of β-lactamase–producing organisms, including *Staphylococcus aureus*, prompted development of compounds resistant to hydrolysis by β-lactamases and the search for agents with expanded gram-negative activity. The isolation of the penicillin nucleus, 6-amino-penicillanic acid, from a precursor-depleted fermentation of *Penicillium chrysogenum* made possible the production and testing of semisynthetic penicillins, including methicillin (active against β-lactamase–producing *S. aureus*), ampicillin (active against selected gram-negative bacilli), and carbenicillin (active against *Pseudomonas aeruginosa*). Since then numerous agents with varying pharmacologic and antimicrobial properties have been developed.
+
+# Mechanism of Action
+
+The antibacterial activity of penicillin, as it is for all β-lactam antibiotics, is triggered by its inhibition of bacterial cell wall synthesis. Although the precise mechanism by which penicillin kills bacterial cells is not fully known, production of deleterious hydroxyl radicals that irreversibly damage the cell appears to be a common pathway of bactericidal antibiotics such as β-lactams, but not bacteriostatic antibiotics.
+
+## Cell Wall Structure
+
+The cell wall of both gram-positive and gram-negative bacteria is composed of peptidoglycan, which allows cells to contain and resist high osmotic pressure. The cell wall of gram-positive bacteria is a substantial layer 50–100 molecules in thickness, whereas in gram-negative bacteria it is only one or two molecules thick. An outer membrane lipopolysaccharide layer, not found in gram-positive bacteria, is present in gram-negative species.
+
+## Peptidoglycan Synthesis
+
+The basic subunit of the peptidoglycan component is a disaccharide monomer of *N*-acetylglucosamine (NAG, or GlcNAc) and *N*-acetylmuramic acid (NAM, or MurNAc) pentapeptide (@fig-pbp-transpeptidation). The cytoplasmic enzymatic reactions that generate cell wall precursors, the disaccharide monomer subunit translocation across the cytoplasmic membrane, and the transglycosylase reaction that links the subunit to the peptidoglycan polymer are not sensitive to penicillin.
+
+::: {.callout-important title="Key Mechanism"}
+Penicillin inhibits enzymes that catalyze the final step in bacterial cell wall assembly, which is the formation of the cross-links that bridge peptidoglycan, giving the cell its structural integrity.
+:::
+
+![Penicillin-binding protein (PBP) transpeptidation reaction that cross-links bacterial cell wall. The structure for *Staphylococcus aureus* is shown. NAG, *N*-Acetylglucosamine; NAM, *N*-acetylmuramic acid.](images/fig20-2-08.png){#fig-pbp-transpeptidation}
+
+## Penicillin-Binding Proteins (PBPs)
+
+Peptidoglycan is composed of long β-linked polysaccharide chains of NAG and NAM pentapeptides whose synthesis is catalyzed by a series of Mur enzymes. Each pentapeptide consists of amino-acid residues alternating between L- and D-stereoisomers and terminating in D-alanyl-D-alanine. After translocation from the cytoplasm to the exterior of the membrane, a stem peptide of variable length and composition is attached to the third amino acid of this pentapeptide. Pentapeptides are then joined with stem peptides to form a cross-link between polysaccharide chains. This reaction is catalyzed by a transpeptidase that forms an amide bond between the terminal free amine group of a stem peptide and a penultimate D-alanine of a pentapeptide, displacing the terminal D-alanine in the process. This transpeptidation reaction is sensitive to inhibition by penicillin.
+
+The penicillin-sensitive reactions are catalyzed by a family of closely related proteins, called penicillin-binding proteins (PBPs). Bacteria produce four types of PBPs, which structurally resemble and are likely derived from serine proteases. High-molecular-weight PBPs (i.e., >50 kilodaltons [kDa]) and low-molecular-weight PBPs catalyze transpeptidation and carboxypeptidation reactions of cell wall assembly, respectively. Class A high-molecular-weight PBPs are bifunctional enzymes that have transpeptidase and transglycosylase domains that cooperatively interact during cell wall synthesis.
+
+::: {.callout-tip title="Clinical Pearl"}
+β-Lactamases are PBPs that catalyze hydrolysis of the β-lactam ring. The main distinction between cell wall–synthetic PBPs and β-lactamases is the rate of deacylation—slow for PBPs (leading to inhibition) and fast for β-lactamases (conferring resistance).
+:::
+
+### PBP Functions
+
+PBPs vary both in amounts present and in the physiologic functions they serve during cell wall assembly. They differ in their affinities for binding β-lactam antibiotics, which explains at least in part why β-lactams differ in their antibacterial properties and spectrum of in vitro activity.
+
+| PBP | Function | Effect of Inhibition |
+|-----|----------|---------------------|
+| PBP1b | Transpeptidase activity (substitute enzyme 1a) | Cell lysis |
+| PBP1 | Cell elongation | Formation of round cells that eventually lyse |
+| PBP2 | Cell elongation and determining rod size/shape | Round cells; affects rod morphology in *E. coli* |
+| PBP3 | Transpeptidase; cross-wall formation and cell division | Long, filamentous cells |
+| Low-MW PBPs | Carboxypeptidases | Role in cell shape and septum maintenance |
+
+: Functions of Penicillin-Binding Proteins {#tbl-pbp-functions}
+
+# Resistance Mechanisms
+
+Four mechanisms account for clinically significant bacterial resistance to penicillins and other β-lactams:
+
+1. **Destruction of antibiotic by β-lactamases** — the most common mechanism
+2. **Failure of antibiotic to penetrate the outer membrane** of gram-negative bacteria
+3. **Efflux of drug** across the outer membrane of gram-negative bacteria
+4. **Low-affinity binding of antibiotic to target PBPs**
+
+::: {.callout-warning title="Clinical Warning"}
+Production of β-lactamases is the most common mechanism of resistance, which in some gram-negative bacteria, such as *P. aeruginosa*, is accompanied by reduced permeability and augmented efflux. β-Lactamases covalently react with the β-lactam ring, rapidly hydrolyze it, and prevent the antibacterial effects of the drug.
+:::
+
+## Classification of β-Lactamases
+
+β-Lactamases can be categorized into one of four classes, Ambler classes A, B, C, and D, based on amino-acid sequence similarity and molecular structure (@tbl-betalactamases). Class A, C, and D β-lactamases contain penicillin-binding motifs and are PBPs. They differ from other PBPs in that they are smaller, typically around 35 kDa compared to 50 kDa, and they are not cell wall–synthetic enzymes.
+
+| Ambler Class | Major Subtypes | Preferred Substrates | Inhibitor | Main Genetic Localization | Representative Enzyme(s) |
+|--------------|----------------|---------------------|-----------|--------------------------|-------------------------|
+| **A** | Gram-positive β-lactamase 2a | Penicillins | Clavulanic acid | Chromosome or plasmid | PC1 |
+| | Gram-negative β-lactamase 2b | Penicillins, first-generation cephalosporins | Clavulanic acid | Plasmid or chromosomal | TEM-1, SHV-1 |
+| | Extended-spectrum β-lactamase 2be | Penicillins, extended-spectrum cephalosporins, aztreonam | Clavulanic acid | Plasmid | TEM-24, SHV-12, CTX-M-15 |
+| | Inhibitor-resistant TEM β-lactamase 2br | Penicillins | Clavulanic acid^c^ | Plasmid | TEM-30, SHV-10 |
+| | Carbenicillin-hydrolyzing β-lactamase 2c | Carbenicillin | Clavulanic acid^c^ | Plasmid | PSE-1, CARB-3 |
+| | Cephalosporin-hydrolyzing β-lactamase 2e | Extended-spectrum cephalosporins | Clavulanic acid | Chromosome | CepA |
+| | Carbapenem-hydrolyzing β-lactamase 2f | Carbapenems | Avibactam, Relebactam, Vaborbactam | Chromosome or plasmid | KPC-2, SME-1 |
+| **B** | Metallo-β-lactamase 3a | All β-lactams except monobactam | EDTA, divalent cation chelators | Chromosome or plasmid | IMP-1, VIM-2, NDM-1 |
+| **C** | AmpC-type β-lactamase | Cephalosporins | Cloxacillin, avibactam, relebactam, vaborbactam | Chromosome or plasmid | AmpC, CMY-2 |
+| **D** | Oxacillin-hydrolyzing β-lactamase 2d | Oxacillin | Clavulanic acid^c^ | Chromosome or plasmid | OXA-1, OXA-10 |
+| | Extended-spectrum β-lactamase 2de | Extended-spectrum cephalosporins | Clavulanic acid^c^ | Plasmid | OXA-11, OXA-15 |
+| | Carbapenem-hydrolyzing β-lactamase 2df | Carbapenems | None, except avibactam inhibits OXA-48 | Plasmid | OXA-23, OXA-40, OXA-48 |
+
+: Classification of β-Lactamases (Ambler Classes with Updated Bush-Jacoby Groups) {#tbl-betalactamases}
+
+^a^ The updated Bush-Jacoby group is indicated; data modified from reference [@Bush2010].
+^b^ Tazobactam and sulbactam have activities similar to those of clavulanic acid.
+^c^ Indicates relatively weaker inhibition.
+^d^ Avibactam generally inhibits β-lactamases inhibited by clavulanic acid.
+
+## Other Resistance Mechanisms
+
+### Outer Membrane Permeability
+
+The outer membrane of gram-negative organisms is an important barrier to drug penetration and component of resistance. β-Lactamases of gram-negative bacteria are located in the periplasmic space between the inner cytoplasmic membrane and outer lipopolysaccharide membrane concentrated to protect target PBPs from exposure to active β-lactam antibiotics. Small polar molecules (e.g., glucose, essential nutrients, β-lactam antibiotics) cross this barrier through bores in the outer membrane known as porin channels. Porins control entry of molecules into the cell according to size, structure, and charge.
+
+### Efflux Pumps
+
+The third mechanism of β-lactam resistance is efflux. As β-lactam molecules enter the periplasmic space they are recognized and pumped back across the outer membrane. Efflux pumps may operate independent of other antibiotic resistance mechanisms, but often work in concert with decreased antibiotic entry through altered porins and/or destruction by β-lactamases to facilitate resistance.
+
+### Altered PBPs
+
+The fourth general type of resistance mechanism involves production of a PBP that has low affinity for certain β-lactams. This may be the result of mutations in PBP genes that lower binding affinity, as is the case for penicillin-resistant pneumococci or *Neisseria* spp., or may be due to the presence of an extra, low-affinity PBP, such as PBP5 produced by *Enterococcus faecium* or PBP2a produced by methicillin-resistant staphylococci.
+
+# Classification of Penicillins
+
+Penicillins can be divided into five classes on the basis of antibacterial activity:
+
+1. **Natural penicillins** — penicillin G, penicillin V
+2. **Penicillinase-resistant penicillins** — nafcillin, isoxazolyl penicillins (oxacillin, cloxacillin, dicloxacillin, flucloxacillin)
+3. **Aminopenicillins** — ampicillin, amoxicillin
+4. **Carboxypenicillins** — carbenicillin, ticarcillin
+5. **Acyl ureidopenicillins** — azlocillin, mezlocillin, piperacillin
+
+The carboxypenicillins and ureidopenicillins are also referred to as the antipseudomonal penicillins, among which piperacillin (in combination with tazobactam) is the only one that remains in wide clinical use. Differences within each class are largely pharmacologic, although some compounds may be more active than others in the same class.
+
+## Antibacterial Spectrum
+
+The susceptibility profile of some important bacterial pathogens is shown in @tbl-mic-cocci, @tbl-mic-bacilli, and @tbl-mic-enterobacterales.
+
+| Organism | Penicillin G | Penicillin V | Ampicillin, Amoxicillin | Oxacillin^a^ | Piperacillin |
+|----------|-------------|--------------|------------------------|--------------|--------------|
+| *Streptococcus pneumoniae*^b^ | 0.03 | 0.03 | 0.03 | 0.13 | 0.05 |
+| *Streptococcus pyogenes* | 0.015 | 0.015 | 0.03 | 0.13 | 0.2 |
+| *Streptococcus agalactiae* | 0.06 | 0.03 | 0.12 | 0.13 | 0.2 |
+| Viridans group streptococci | 0.06 | 0.12 | 0.12 | 0.5 | 0.25 |
+| *Enterococcus faecalis* | 2 | 4 | 1 | 16 | 4 |
+| *Enterococcus faecium* | >16 | >16 | 8 | >16 | >16 |
+| *Peptostreptococcus* spp. | 0.13 | 0.13 | 0.13 | 2 | 0.5 |
+| *Staphylococcus aureus*^c^ | NA | NA | NA | 0.13 | 0.8 |
+| *Staphylococcus epidermidis*^c^ | NA | NA | NA | 0.13 | 0.8 |
+| *Neisseria gonorrhoeae*^d^ | 0.015 | 0.03 | 0.2 | 0.4 | 0.03 |
+| *Neisseria meningitidis* | 0.03 | 0.12 | 0.12 | 0.1 | 0.01 |
+
+: Expected Minimal Inhibitory Concentrations (μg/mL) for Penicillins Against Gram-Positive and Gram-Negative Cocci {#tbl-mic-cocci}
+
+NA = Not applicable other than for rare strains that do not produce β-lactamase.
+^a^ Oxacillin is representative of all antistaphylococcal penicillins; not active against methicillin-resistant strains.
+^b^ Penicillin-susceptible strains only; ≥10% or more of strains are penicillin-resistant in the United States.
+^c^ Methicillin-susceptible strains only.
+^d^ Penicillin-susceptible strains only; ≥10% or more of strains are penicillin-resistant in the United States.
+
+| Organism | Penicillin G | Ampicillin, Amoxicillin | Oxacillin^a^ | Piperacillin |
+|----------|-------------|------------------------|--------------|--------------|
+| *Clostridium perfringens* | 0.5 | 0.1 | 0.25 | 0.25 |
+| *Corynebacterium diphtheriae* | 0.1 | 0.2 | 3.1 | — |
+| *Listeria monocytogenes* | 0.25 | 0.5 | 4 | 2 |
+| *Haemophilus influenzae*^b^ | 1 | 0.25 | 32 | 0.1 |
+| *Prevotella melaninogenica* | 0.1 | 0.1 | 0.5 | 0.25 |
+| *Fusobacterium nucleatum* | 0.1 | 0.1 | 0.13 | 0.06 |
+| *Bacteroides fragilis* | 32 | 16 | 64 | 20 |
+
+: Activity of Penicillins Against Selected Bacilli and Anaerobic Organisms {#tbl-mic-bacilli}
+
+^a^ Oxacillin is representative of all antistaphylococcal penicillins.
+^b^ β-Lactamase–producing strains occur and are resistant to the penicillins.
+
+| Organism | Penicillin G | Ampicillin, Amoxicillin | Oxacillin^b^ | Piperacillin |
+|----------|-------------|------------------------|--------------|--------------|
+| *Escherichia coli* | 200 | >200 | 200 | 32 |
+| *Klebsiella* spp. | 50 | 50 | >200 | 16 |
+| *Enterobacter* spp. | >200 | >200 | — | 4 |
+| *Citrobacter freundii* | — | 100 | — | 6 |
+| *Serratia marcescens* | >200 | >200 | — | 4 |
+| *Morganella morganii* | >200 | >200 | >200 | 2 |
+| *Proteus mirabilis* | 3.1 | 6.3 | >200 | 1 |
+| *Proteus vulgaris* | 400 | >200 | >200 | 4 |
+| *Providencia* spp. | 50 | >200 | >200 | 4 |
+| *Salmonella enterica* | 12.5 | 6.3 | >200 | 4 |
+| *Shigella* spp. | 25 | 6.3 | >200 | 2 |
+| *Acinetobacter* spp. | 100 | 50 | >200 | 25 |
+| *Pseudomonas aeruginosa* | >200 | >200 | >200 | 32 |
+
+: Activity of Penicillins Against Enterobacterales, *Acinetobacter* spp., and *Pseudomonas aeruginosa*^a^ {#tbl-mic-enterobacterales}
+
+^a^ Some of the data are historic and may not reflect current activity.
+^b^ Oxacillin is representative of all antistaphylococcal penicillins.
+
+# Pharmacologic Properties
+
+Penicillins differ markedly in their oral absorption (@tbl-pharmacokinetics). Acid-labile compounds, penicillin G, methicillin, and antipseudomonal penicillins are poorly absorbed, and are therefore generally not administered via the oral route. Acid-stable compounds can have major differences in oral absorption. Semisynthetic penicillins, except nafcillin, are well absorbed. Ampicillin is only partially absorbed (30%–55%), and food decreases absorption, whereas amoxicillin has higher oral bioavailability (74%–92%) that is not affected by food.
+
+| Penicillin | Oral Absorption (%) | Food Decreases Absorption | Protein Binding (%) | Peak Serum Levels Total Drug (μg/mL) | Free Drug (μg/mL) | Percentage of Dose Metabolized (%) | Percentage Excreted in Urine Unchanged (%) | Serum T½ Normal (h) (CrCl >90 mL/min) | Serum T½ Renal Failure (h) (CrCl <10 mL/min) |
+|------------|---------------------|---------------------------|---------------------|--------------------------------------|-------------------|-------------------------------------|-------------------------------------------|--------------------------------------|-------------------------------------------|
+| Penicillin G | NA | NA | 60 | 1.5–2.7^a^ | 0.6–1.0 | 19 | 15–30 | 0.7 | 6–10 |
+| Penicillin V | 60 | No | 80 | 3–5^a^ | 0.8 | 56 | 26 | 0.52–0.78 | — |
+| Oxacillin | NA | NA | 90 | 5.6^a^ | 0.39 | 49 | 17 | 0.4–0.7 | 0.5–1 |
+| Cloxacillin | 49 | Yes | 93 | 7–14^a^ | 0.6 | 22 | 38 | 0.5 | 0.8 |
+| Dicloxacillin | 37 | Yes | 96 | 15–18^a^ | 0.6 | 10 | 33 | 0.8 | 1–1.5 |
+| Flucloxacillin | 44 | Yes | 96 | 11–20^a^ | 0.6 | 10 | 41 | 0.8 | 2.9 |
+| Nafcillin | NA | NA | 90 | 4.3^b^ | — | — | 9 (PO) to 31 (IM) | 0.55–1 | 1.2 |
+| Ampicillin | 33–54 | Yes | 20 | 2–6^a^ | 3.2 | 21 | 26–43 | 1–1.3 | 8–20 |
+| Amoxicillin | 74–80 | No | 20 | 7–8^a^ | 6 | 28 | 50–64 | 1–1.3 | 16 |
+| Piperacillin | NA | NA | 48 | 58.3^c^ | - | - | 67.5 | 0.867 | 3.33 |
+
+: Pharmacokinetic Properties of Penicillins {#tbl-pharmacokinetics}
+
+CrCl = Creatinine clearance; IM = intramuscular; NA = not applicable as generally not administered PO; PO = orally.
+^a^ Peak level after 500-mg oral dose taken fasting.
+^b^ Peak level after 500-mg intramuscular injection.
+^c^ Peak level after 2-g intravenous infusion.
+
+## Distribution
+
+Penicillins are well distributed to most tissues, including lung, liver, kidney, muscle, and placenta. The concentration of penicillins in bones is variable. The concentration of penicillins in abscesses and middle ear, pleural, peritoneal, and synovial fluids is sufficient to inhibit most susceptible bacteria.
+
+::: {.callout-note title="CNS Penetration"}
+Most penicillins are relatively insoluble in lipid and penetrate cells poorly. Distribution of all the penicillins to eye, brain, cerebrospinal fluid (CSF), or prostate is insufficient in the absence of inflammation. Inflammation alters normal barriers, permitting entry of penicillins, which achieve concentrations in CSF of 5%–10% for penicillin G and 13%–14% with ampicillin.
+:::
+
+## Renal Dosing Adjustments
+
+Reduction in renal function must be taken into account in the administration of certain penicillins. For patients with a creatinine clearance (CrCl) greater than 30 mL/min, dose adjustments are typically not required. For patients with a CrCl <30 mL/min, dosage adjustments are required for the natural penicillins, aminopenicillins, and antipseudomonal penicillins (@tbl-renal-dosing).
+
+| Agent | Dose Change in Renal Failure | | Dosage for Hemodialysis^a^ |
+|-------|------------------------------|-------------------------|---------------------------|
+| | CrCl 30–50 mL/min | CrCl 10–29 mL/min | |
+| Penicillin G | NC | Administer 75% of normal dose | 25%–50% of normal dose IV every 4–6 h OR 50%–100% of normal dose IV every 8–12 h |
+| Penicillin V | NC | 250 mg PO every 6 h | 250 mg PO every 6 h |
+| Ampicillin | NC | 0.5–2 g IV/PO every 12 h | 0.5–1 g IV/PO every 12–24 h |
+| Amoxicillin | NC | 500 mg PO every 12 h | 500 mg PO every 12–24 h |
+| Cloxacillin | NC | NC | NC |
+| Dicloxacillin | NC | NC | NC |
+| Flucloxacillin | NC | NC | NC |
+| Nafcillin | NC | NC | NC |
+| Oxacillin | NC | NC | NC |
+| Piperacillin | NC | 3 g IV every 8–12 h | 3 g IV every 12 h |
+
+: Antibiotic Dosage Change in Renal Disease and Hemodialysis {#tbl-renal-dosing}
+
+HD = Hemodialysis, assuming complete intermittent hemodialysis performed three times weekly; NC = no change in dosing.
+^a^ Administer after hemodialysis when scheduled doses fall on dialysis days.
+
+# Untoward Reactions
+
+## Hypersensitivity Reactions
+
+The most important adverse effects of the penicillins are hypersensitivity reactions, which range in severity from rash to anaphylaxis. Penicillins can act as haptens to combine with proteins contaminating the solution or with human proteins after the penicillin has been administered. Penicilloyl and penicillanic acid derivatives are the major determinants of penicillin allergy.
+
+::: {.callout-warning title="Allergy Warning"}
+Although a history of penicillin allergy is quite common, less than 2% will have an allergic reaction if challenged. The risk is higher for those with history of an immediate IgE-mediated hypersensitivity reaction or a positive skin test. True anaphylactic reactions to penicillins are rare (<0.01%); skin-testing and oral challenges have been used successfully to de-label patients with a penicillin allergy.
+:::
+
+## Other Adverse Effects
+
+- **Serum sickness** — may occur with penicillins, but exceedingly uncommon (<0.01%)
+- **Exfoliative dermatitis and Stevens-Johnson syndrome** — rare forms
+- **Hematologic effects** — neutropenia with prolonged high-dose therapy; platelet dysfunction and bleeding with high doses of carboxypenicillins and ureidopenicillins
+- **Nephrotoxicity** — interstitial nephritis (particularly methicillin, nafcillin, and oxacillin)
+- **Hepatotoxicity** — mild elevations in aminotransferases; cholestatic jaundice with oxacillin and flucloxacillin
+- **Neurotoxicity** — seizures with very high doses, particularly in patients with renal failure
+- **Gastrointestinal effects** — nausea, vomiting, diarrhea; *Clostridioides difficile*–associated diarrhea
+- **Electrolyte abnormalities** — hyperkalemia (potassium penicillin G), hypokalemia (nafcillin)
+
+# Individual Penicillins
+
+## Penicillinase-Resistant Penicillins
+
+### Nafcillin
+
+Nafcillin (2-ethoxy-1-naphthylpenicillin) has more intrinsic activity than methicillin against susceptible organisms. It is highly protein bound and the only route of administration is IV. The antibiotic is primarily excreted by the liver and to a lesser extent by the kidney. Serum levels are elevated, and the half-life is prolonged by probenecid. Nafcillin causes hypokalemia more often than oxacillin.
+
+The usual dosage of nafcillin is 12 g/day and 100–200 mg/kg/day for children in divided doses every 4–6 hours. For severe infections due to methicillin-susceptible staphylococci, it is often given as a continuous IV infusion.
+
+### Isoxazolyl Penicillins
+
+Cloxacillin, dicloxacillin, and flucloxacillin are absorbed after oral administration, but absorption is adversely affected by food. Dicloxacillin and flucloxacillin yield the highest total drug serum concentrations, but because of differences in protein binding, free-drug concentrations are similar for all three compounds.
+
+**Oxacillin** sodium for injection is administered via the IV route. The adult dosage is 12 g/day, and for children it is 100–200 mg/kg/day in divided doses every 4–6 hours. Oxacillin may be associated with a higher incidence of hepatotoxicity and rash than nafcillin or other antistaphylococcal agents.
+
+**Dicloxacillin** sodium is available as capsules of 250 and 500 mg. The dosage for children weighing less than 40 kg is 12–100 mg/kg/day given in four divided doses. For adults a dosage of 250–500 mg every 6 hours can be given, depending on the severity of the infection.
+
+**Flucloxacillin** is not available in the United States, but is widely used in Europe and other countries.
+
+## Aminopenicillins
+
+The antibacterial activities of aminopenicillins are similar (@fig-aminopenicillins). They are susceptible to hydrolysis by β-lactamases. For practical purposes the activity of aminopenicillins is virtually identical to that of penicillin G against penicillin-susceptible organisms, except that aminopenicillins are more active against enterococci.
+
+![Aminopenicillins. Ampicillin [D(-) α-aminobenzylpenicillin] and Amoxicillin [D(-) α-amino-p-hydroxybenzylpenicillin] differ only in the presence of a hydroxyl group in the *para* position of the benzene side chain.](images/fig20-6-25.png){#fig-aminopenicillins}
+
+### Ampicillin
+
+Ampicillin is moderately well absorbed after oral administration, but peak levels are delayed and lowered if it is ingested with food. Peak blood levels of 3 μg/mL occur 1–2 hours after ingestion of 500 mg. The elimination half-life is approximately 80 minutes.
+
+Ampicillin is available for oral use in the United States as the sodium salt as 250- or 500-mg capsules. For most indications, oral amoxicillin is preferred to ampicillin because of the greater bioavailability of the latter. Ampicillin is effective for upper and lower respiratory tract infections caused by *S. pneumoniae*, β-hemolytic streptococci, and non–β-lactamase–producing strains of *H. influenzae*. It is effective in the treatment of meningitis caused by group B streptococci, *L. monocytogenes*, *N. meningitidis*, and penicillin-susceptible strains of *S. pneumoniae*.
+
+### Amoxicillin
+
+Amoxicillin differs from ampicillin only in the presence of hydroxyl group in the *para* position of the benzene side chain. It is significantly better absorbed when given by mouth compared with ampicillin, and for this reason it is preferred for most indications. Peak blood levels are from 2–2.5 times those achieved with a similar dose of ampicillin, and food does not decrease absorption.
+
+::: {.callout-tip title="Clinical Pearl"}
+High-dose amoxicillin (80–90 mg/kg/day) is first-line therapy for otitis media in children because it covers penicillin-resistant pneumococci. Amoxicillin 1 g three times daily is recommended as a treatment option for outpatients with community-acquired pneumonia that do not have comorbid conditions.
+:::
+
+## Carboxypenicillins and Ureidopenicillins
+
+Ticarcillin, carbenicillin, and indanyl carbenicillin (α-carboxy esters of carbenicillin used for oral administration) are no longer used because of the large doses required, the potential for toxicity, and the availability of more potent alternatives.
+
+### Piperacillin
+
+Piperacillin is similar to ampicillin in activity against gram-positive species. It has excellent activity against streptococcal species and against *Neisseria*, *Haemophilus*, and most Enterobacterales. It also has excellent activity against anaerobic species of both cocci and bacilli. It inhibits 60%–90% of *P. aeruginosa* strains at concentrations less than 16 μg/mL.
+
+![Penicillins active against gram-negative bacteria, including carbenicillin, carindacillin, ticarcillin, azlocillin, mezlocillin, and piperacillin. These agents have modified side chains that expand their spectrum of activity.](images/fig20-7-31.png){#fig-antipseudomonal-penicillins}
+
+IV bolus administration of 4 g produces peak serum drug levels above 300 μg/mL. Piperacillin's kinetics are dose-dependent, and accumulation occurs in the setting of renal failure, but to a lesser degree than with carbenicillin. It is removed through hemodialysis and should be dosed after dialysis. The half-life with continuous venovenous hemofiltration is approximately 5 hours.
+
+Piperacillin is now used exclusively in the United States as a piperacillin-tazobactam combination to extend its activity against class A β-lactamase–producing strains.
+
+# β-Lactam and β-Lactamase Inhibitor Combinations
+
+β-Lactamase inhibitors are grouped into β-lactam compounds (e.g., clavulanic acid, sulbactam, and tazobactam) and non–β-lactam compounds (e.g., avibactam, relebactam, and vaborbactam). Six β-lactamase inhibitors are currently in clinical use: clavulanic acid, sulbactam, tazobactam, avibactam, relebactam, and vaborbactam.
+
+The former three are potent inhibitors of class A β-lactamases, with a notable exception of the *K. pneumoniae* carbapenemase (KPC). The latter three are inhibitors of class A β-lactamases, including KPC and class C (e.g., AmpC) β-lactamases. When combined with β-lactam antibiotics that are substrates for these β-lactamases, β-lactamase inhibitors prevent hydrolysis and restore the activity of the companion β-lactam.
+
+## Properties of β-Lactamase Inhibitors
+
+| Property | Clavulanic Acid | Sulbactam | Tazobactam | Avibactam | Relebactam | Vaborbactam |
+|----------|-----------------|-----------|------------|-----------|------------|-------------|
+| **Class** | β-Lactam | β-Lactam | β-Lactam | Diazabicyclooctane | Diazabicyclooctane | Boronic acid |
+| **Spectrum of inhibition** | Class A, including some ESBLs | Class A | Class A, including some ESBLs | Class A (including KPC and ESBLs), Class C, Class D (including OXA-48) | Class A (including KPC and ESBLs), Class C | Class A (including KPC and ESBLs), Class C |
+| **Partner β-lactams** | Amoxicillin | Ampicillin, cefoperazone | Piperacillin, ceftolozane | Ceftazidime | Imipenem-cilastatin | Meropenem |
+
+: Properties of β-Lactamase Inhibitors {#tbl-bli-properties}
+
+ESBLs = Extended-spectrum β-lactams; KPC = *Klebsiella pneumoniae* carbapenemase; OXA = oxacillinase.
+
+## MIC Data for β-Lactamase Inhibitor Combinations
+
+| Organism | Amoxicillin, Ampicillin | Amoxicillin-Clavulanate^a^ | Ampicillin-Sulbactam^b^ | Piperacillin | Piperacillin-Tazobactam^c^ |
+|----------|-------------------------|---------------------------|------------------------|--------------|---------------------------|
+| *Staphylococcus aureus* (MSSA) | 16 | 1 | 1 | 8 | 1 |
+| *S. aureus* (MRSA) | >16 | 16 | 8 | >16 | >16 |
+| *Haemophilus influenzae*^d^ | >16 | 0.5 | 0.25 | 16 | 0.06 |
+| *Moraxella catarrhalis* | 2 | 0.06 | 0.06 | 0.5 | 0.015 |
+| *Escherichia coli* | >16 | 4 | 2 | 2 | 2 |
+| *Klebsiella pneumoniae* | >16 | 2 | 4 | 8 | 4 |
+| *Proteus mirabilis* | 1 | 1 | 1 | 0.5 | 0.5 |
+| *Proteus vulgaris* | >16 | 4 | 8 | 1 | 0.5 |
+| *Bacteroides fragilis* | >16 | 0.5 | 2 | 8 | 2 |
+| *Enterobacter, Citrobacter, Serratia* spp. | >16 | 8 to >16 | 2 to >16 | 2–8 | 1–8 |
+| *Pseudomonas aeruginosa* | >16 | >16 | >16 | 4 | 4 |
+
+: Usual Minimal Inhibitory Concentrations (μg/mL) of Penicillin–β-Lactamase Inhibitor Combinations {#tbl-bli-mic}
+
+MRSA = Methicillin-resistant *S. aureus*; MSSA = methicillin-susceptible *S. aureus*.
+^a^ Contains amoxicillin and clavulanic acid in a 2:1 to 16:1 ratio.
+^b^ Contains amoxicillin or ampicillin and clavulanic acid or sulbactam in a 2:1 ratio.
+^c^ Contains piperacillin and tazobactam in an 8:1 ratio.
+^d^ β-Lactamase–producing strains.
+
+## Clavulanic Acid
+
+The β-lactamase inhibitor clavulanic acid was originally identified in cultures of *Streptomyces clavuligerus* [@Reading1977]. Clavulanic acid is formulated in combination with amoxicillin, which is available for oral administration only in the United States, and is available as a parenteral preparation in other countries.
+
+## Clinical Considerations
+
+::: {.callout-important title="Important Clinical Point"}
+Reports of failure with β-lactam/β-lactamase inhibitors in combination with a penicillin (i.e., amoxicillin, ampicillin, or piperacillin) for treatment of bacteremia and other systemic infections caused by ESBL-producing organisms suggest that activity in vivo may not be predictable.
+
+KPC-β-lactamases also belong to class A and are not sufficiently inhibited by clavulanic acid, sulbactam, and tazobactam for clinical application. Ambler class C β-lactamases (e.g., AmpC cephalosporinases) of *Serratia* spp., *C. freundii*, *Enterobacter* spp., *P. aeruginosa*, and some other Enterobacterales spp., which typically are chromosomally encoded, are not effectively inhibited by β-lactam β-lactamase inhibitors either.
+:::
+
+# Summary
+
+Penicillins remain important antibiotics in clinical practice, particularly when combined with β-lactamase inhibitors to extend their spectrum of activity. Key points include:
+
+- The β-lactam ring is essential for antibacterial activity and is the target of β-lactamases
+- Penicillin-binding proteins (PBPs) are the molecular targets of β-lactams
+- Four mechanisms of resistance exist: β-lactamase production, decreased permeability, efflux, and altered PBPs
+- Classification includes natural penicillins, penicillinase-resistant penicillins, aminopenicillins, and antipseudomonal penicillins
+- β-Lactamase inhibitors restore activity against many resistant organisms but have limitations against certain enzyme classes
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
