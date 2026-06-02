@@ -132,7 +132,7 @@ The C5 side chain is the structural feature that diverges between linezolid and 
 Teach the takeaway: the hydroxymethyl group is the specific modification that defeats Cfr methylation of A2503. The tetrazole/pyridine contribute to overall MIC reduction but are not the cfr-defeating feature.
 :::
 
-# Mechanism of action
+# Mechanism of action {background-color="#b20e10"}
 
 ## Where do oxazolidinones bind?
 
@@ -166,7 +166,7 @@ Emphasize that oxazolidinones block one of the earliest steps in protein synthes
 This is a recurring exam-style question and a recurring stewardship discussion. The Wald-Dickler review is worth assigning as background reading.
 :::
 
-# Spectrum of activity
+# Spectrum of activity {background-color="#b20e10"}
 
 ## Aerobic Gram-positive activity (Table 32.1)
 
