@@ -67,9 +67,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 [@Slee1987]
 :::
 
-::: notes
-A nice point for trainees: this is one of the few entirely synthetic antibiotic classes — contrast with β-lactams (fungal), aminoglycosides (Streptomyces), glycopeptides (Amycolatopsis). The class arrived with no natural environmental reservoir of resistance — which delayed but did not prevent emergence.
-:::
+
 
 ## Two FDA/EMA-approved agents
 
@@ -85,7 +83,7 @@ A nice point for trainees: this is one of the few entirely synthetic antibiotic 
 - Investigational agents: **sutezolid, radezolid, delpazolid, contezolid**
 - No drug-class cross-resistance with β-lactams, vancomycin, daptomycin, or quinupristin-dalfopristin
 
-::: notes
+::: aside
 Note that tedizolid is a prodrug — phosphate ester cleaved by plasma phosphatases. Contezolid (MRX-I) is approved in China for ABSSSI; emphasize that the pipeline is moving on TB indications.
 :::
 
@@ -100,7 +98,7 @@ Note that tedizolid is a prodrug — phosphate ester cleaved by plasma phosphata
 - **Fluorination of the B-ring** further increases potency
 
 ::: aside
-The C5 side chain is the structural feature that diverges between linezolid and tedizolid — and is the most important thing to remember when explaining why tedizolid keeps activity against cfr-carrying strains.[@Rybak2015]
+The C5 side chain is the structural feature that diverges between linezolid and tedizolid — and is the most important thing to remember when explaining why tedizolid keeps activity against cfr-carrying strains [@Rybak2015].
 :::
 
 ## Linezolid — structural features
@@ -128,8 +126,8 @@ The C5 side chain is the structural feature that diverges between linezolid and 
 [@Rybak2015; @Locke2010]
 :::
 
-::: notes
-Teach the takeaway: the hydroxymethyl group is the specific modification that defeats Cfr methylation of A2503. The tetrazole/pyridine contribute to overall MIC reduction but are not the cfr-defeating feature.
+::: aside
+The hydroxymethyl group is the specific modification that defeats Cfr methylation of A2503. The tetrazole/pyridine contribute to overall MIC reduction but are not the cfr-defeating feature.
 :::
 
 # Mechanism of action {background-color="#b20e10"}
