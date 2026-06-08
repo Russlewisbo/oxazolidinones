@@ -32,7 +32,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 <center>
 
-**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br>
+**Russell E. Lewis** <br> Associate Professor of Infectious Diseases (MEDS-10/B) <br>
 
 <br> <br>
 
@@ -67,8 +67,6 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 [@Slee1987]
 :::
 
-
-
 ## Two FDA/EMA-approved agents
 
 <br>
@@ -91,7 +89,7 @@ Note that tedizolid is a prodrug — phosphate ester cleaved by plasma phosphata
 
 <br>
 
-![](oxazolidinone-images/basic structure.png){fig-align="center" width="350"}
+![](oxazolidinone-images/basic%20structure.png){fig-align="center" width="350"}
 
 - Core five-membered **2-oxazolidinone ring** (the "A-ring")
 - **C5 modification** of the A-ring and **N-aryl B-ring** are essential for antibacterial activity
@@ -134,19 +132,12 @@ The hydroxymethyl group is the specific modification that defeats Cfr methylatio
 
 ## Where do oxazolidinones bind?
 
-<br>
+![](oxazolidinone-images/Linezolid_MOA.png){fig-align="center" width="800"}
 
-- Bind the **V domain of the 23S rRNA** in the 50S ribosomal subunit
-- Engage the **A-site of the peptidyl transferase center (PTC)**
-- Block placement of aminoacyl-tRNA → halt **peptide elongation at initiation**
-
-::: aside
-[@Colca2003; @Moellering2003]
+:::: aside
+Oxazolidinones block one of the earliest steps in protein synthesis. Chloramphenicol and lincomycin bind in overlapping sites — useful for explaining mechanistic competition observed in vitro [@Colca2003; @Moellering2003].
 :::
 
-::: notes
-Emphasize that oxazolidinones block one of the earliest steps in protein synthesis. Chloramphenicol and lincomycin bind in overlapping sites — useful for explaining mechanistic competition observed in vitro.
-:::
 
 ## Bacteriostatic — and why that's fine
 
