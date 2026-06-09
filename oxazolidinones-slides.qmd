@@ -82,7 +82,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 - No drug-class cross-resistance with β-lactams, vancomycin, daptomycin, or quinupristin-dalfopristin
 
 ::: aside
-Note that tedizolid is a prodrug — phosphate ester cleaved by plasma phosphatases. Contezolid (MRX-I) is approved in China for ABSSSI; emphasize that the pipeline is moving on TB indications.
+Note that tedizolid is a prodrug — phosphate ester cleaved by plasma phosphatases. Contezolid (MRX-I) is approved in China for ABSSSI; the pipeline is moving on TB indications.
 :::
 
 ## Basic oxazolidinone scaffold
@@ -103,6 +103,8 @@ The C5 side chain is the structural feature that diverges between linezolid and 
 
 <br>
 
+![](oxazolidinone-images/Linezolid.png){fig-align="center"}
+
 - C5 **acetamide** side chain on the A-ring
 - N-aryl B-ring with **single fluorine**
 - Single morpholine D-substituent
@@ -115,6 +117,8 @@ The C5 side chain is the structural feature that diverges between linezolid and 
 ## Tedizolid — engineered for breadth
 
 <br>
+
+![](oxazolidinone-images/Tedizolid.png){fig-align="center"}
 
 - C5 **hydroxymethyl** group replaces acetamide → preserves activity against ***cfr*****-carrying** strains
 - Added **pyridine (C-ring) and tetrazole (D-ring)** moieties → lower MICs
@@ -134,10 +138,9 @@ The hydroxymethyl group is the specific modification that defeats Cfr methylatio
 
 ![](oxazolidinone-images/Linezolid_MOA.png){fig-align="center" width="800"}
 
-:::: aside
+::: aside
 Oxazolidinones block one of the earliest steps in protein synthesis. Chloramphenicol and lincomycin bind in overlapping sites — useful for explaining mechanistic competition observed in vitro [@Colca2003; @Moellering2003].
 :::
-
 
 ## Bacteriostatic — and why that's fine
 
