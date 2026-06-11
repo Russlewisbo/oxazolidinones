@@ -19,7 +19,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 link-citations: true
 ---
 
-> Adapted from Cox HL, Donowitz GR. *Linezolid, Tedizolid, and Other Oxazolidinones.* In: Mandell, Douglas, and Bennett's *Principles and Practice of Infectious Diseases*, Chapter 32. Restructured and annotated as a teaching handout for the Postgraduate ID curriculum at the University of Padova.
+
 
 # Short View Summary
 
@@ -73,13 +73,21 @@ Further biochemical manipulations have created new oxazolidinones with potential
 The unique chemical structure of the oxazolidinones makes cross-resistance with β-lactams, vancomycin, quinupristin–dalfopristin, and daptomycin **unlikely**.
 :::
 
-<!-- IMAGE NEEDED: Figure 32.1 — Basic oxazolidinone scaffold (A), linezolid (B), tedizolid (C). Reproduce from Rybak & Roberts 2015 if license permits; otherwise sketch a teaching schematic showing A-ring with C5 substituent, N-aryl B-ring with F, and tedizolid's pyridine + tetrazole rings. -->
+::: {#fig-structure layout-ncol=3}
+![Basic oxazolidinone scaffold](oxazolidinone-images/basic structure.png){#fig-structure-a}
 
-![**Figure 32.1.** (A) Basic molecular structure of oxazolidinone antibiotics. (B) Structure of linezolid. (C) Structure of tedizolid. Modified from [@Rybak2015].](oxazolidinones-images/structure-placeholder.png){#fig-structure}
+![Linezolid](oxazolidinone-images/Linezolid.png){#fig-structure-b}
+
+![Tedizolid](oxazolidinone-images/Tedizolid.png){#fig-structure-c}
+
+**(A)** Basic molecular structure of oxazolidinone antibiotics. **(B)** Structure of linezolid. **(C)** Structure of tedizolid. Modified from [@Rybak2015].
+:::
 
 # Mechanism of Action
 
-The oxazolidinones are inhibitors of protein synthesis and are usually bacteriostatic, although in some models bactericidal activity against select organisms has been observed. The mechanism is unique: oxazolidinones inhibit the earliest steps of bacterial protein synthesis [@Moellering2003]. They bind the V domain of the 23S rRNA component of the 50S ribosomal subunit, and interaction with the A-site of the peptidyl transferase center blocks peptide elongation [@Rybak2015; @Colca2003]. Binding is competitively inhibited by chloramphenicol and lincomycin owing to proximity of the respective binding sites [@Moellering2003].
+The oxazolidinones are inhibitors of protein synthesis and are usually bacteriostatic, although in some models bactericidal activity against select organisms has been observed. The mechanism is unique: oxazolidinones inhibit the earliest steps of bacterial protein synthesis [@Moellering2003]. They bind the V domain of the 23S rRNA component of the 50S ribosomal subunit, and interaction with the A-site of the peptidyl transferase center blocks peptide elongation (@fig-moa) [@Rybak2015; @Colca2003]. Binding is competitively inhibited by chloramphenicol and lincomycin owing to proximity of the respective binding sites [@Moellering2003].
+
+![Mechanism of action of oxazolidinones. Oxazolidinones bind the V domain of the 23S rRNA of the 50S ribosomal subunit, blocking peptide elongation at the peptidyl transferase center (PTC). Modified from [@Colca2003].](oxazolidinone-images/linezolid_MOA.png){#fig-moa fig-align="center"}
 
 # Antimicrobial Activity
 
@@ -136,15 +144,21 @@ Similar susceptibility to tedizolid has been observed over a 5-year surveillance
 
 ## Mechanism 1 — 23S rRNA mutations
 
-A frequent mechanism involves chromosomal mutations of the oxazolidinone binding site on the **V region of 23S rRNA**. Because bacteria carry numerous copies of the gene, **multiple mutations are needed for clinical resistance**. This is most often identified in enterococci and staphylococci [@Long2012].
+A frequent mechanism involves chromosomal mutations of the oxazolidinone binding site on the **V region of 23S rRNA** (@fig-res1). Because bacteria carry numerous copies of the gene, **multiple mutations are needed for clinical resistance**. This is most often identified in enterococci and staphylococci [@Long2012].
+
+![Mechanism 1: Chromosomal mutations in the V region of 23S rRNA reduce oxazolidinone binding affinity. Because bacteria carry multiple gene copies, several simultaneous mutations are required for clinical resistance.](oxazolidinone-images/linezolid_R.png){#fig-res1 fig-align="center"}
 
 ## Mechanism 2 — ribosomal protein mutations
 
-Additional binding-site modifications come from mutations in genes encoding the 50S ribosomal proteins **L3, L4, and possibly L22**. These have been implicated in resistance in staphylococci, *S. pneumoniae*, and *Clostridium perfringens*, among others [@Long2012; @Holzel2010; @Brenciani2022].
+Additional binding-site modifications come from mutations in genes encoding the 50S ribosomal proteins **L3, L4, and possibly L22** (@fig-res2). These have been implicated in resistance in staphylococci, *S. pneumoniae*, and *Clostridium perfringens*, among others [@Long2012; @Holzel2010; @Brenciani2022].
+
+![Mechanism 2: Mutations in ribosomal proteins L3, L4, and L22 alter the geometry of the oxazolidinone binding pocket.](oxazolidinone-images/linezolid_R_2.png){#fig-res2 fig-align="center"}
 
 ## Mechanism 3 — *cfr* methyltransferase
 
-Acquisition of mobile genetic elements is another important mechanism. The ***cfr*** (chloramphenicol-florfenicol resistance) gene encodes a ribosomal RNA methyltransferase that confers resistance to **phenicols, lincosamides, oxazolidinones, pleuromutilins, and streptogramin A** antibacterial agents (the PhLOPSₐ phenotype) [@Diaz2012]. It has been identified in a large number of Gram-positive organisms (enterococci, staphylococci, *Bacillus* spp.) and some Gram-negatives; *cfr*-like genes confer the same phenotype [@Brenciani2022].
+Acquisition of mobile genetic elements is another important mechanism. The ***cfr*** (chloramphenicol-florfenicol resistance) gene encodes a ribosomal RNA methyltransferase that confers resistance to **phenicols, lincosamides, oxazolidinones, pleuromutilins, and streptogramin A** antibacterial agents (the PhLOPSₐ phenotype; @fig-res3) [@Diaz2012]. It has been identified in a large number of Gram-positive organisms (enterococci, staphylococci, *Bacillus* spp.) and some Gram-negatives; *cfr*-like genes confer the same phenotype [@Brenciani2022].
+
+![Mechanism 3: The *cfr* methyltransferase methylates position A2503 of 23S rRNA, conferring the PhLOPSₐ multi-drug resistance phenotype (**Ph**enicols, **L**incosamides, **O**xazolidinones, **P**leuromutilins, **S**treptogramin **A**).](oxazolidinone-images/resistance_3.png){#fig-res3 fig-align="center"}
 
 ::: {.callout-important}
 ## Why tedizolid's structure matters here
@@ -154,7 +168,9 @@ Tedizolid's hydroxymethyl C5 side chain allows it to **retain activity against m
 
 ## Mechanism 4 — *optrA* and *poxtA*
 
-Other plasmid-borne resistance genes include ***optrA*** and ***poxtA***, which encode an ABC-F protein that mediates resistance through **target protection** [@Brenciani2022; @Bender2018]. *optrA* has been identified most commonly in enterococci (including a widespread presence among isolates of animal origin), streptococci, and staphylococci, whereas *poxtA* has been found primarily in enterococci [@Brenciani2022; @Bender2018; @Wang2015].
+Other plasmid-borne resistance genes include ***optrA*** and ***poxtA***, which encode an ABC-F protein that mediates resistance through **target protection** (@fig-res4) [@Brenciani2022; @Bender2018]. *optrA* has been identified most commonly in enterococci (including a widespread presence among isolates of animal origin), streptococci, and staphylococci, whereas *poxtA* has been found primarily in enterococci [@Brenciani2022; @Bender2018; @Wang2015].
+
+![Mechanism 4: *optrA* and *poxtA* encode ABC-F ribosomal protection proteins that displace oxazolidinones from the ribosomal binding site.](oxazolidinone-images/mechanism_4.png){#fig-res4 fig-align="center"}
 
 ## Other resistance mechanisms
 
