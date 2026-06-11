@@ -134,10 +134,9 @@ The hydroxymethyl group is the specific modification that defeats Cfr methylatio
 
 ![](oxazolidinone-images/Linezolid_MOA.png){fig-align="center" width="800"}
 
-:::: aside
+::: aside
 Oxazolidinones block one of the earliest steps in protein synthesis. Chloramphenicol and lincomycin bind in overlapping sites — useful for explaining mechanistic competition observed in vitro [@Colca2003; @Moellering2003].
 :::
-
 
 ## Bacteriostatic — and why that's fine
 
