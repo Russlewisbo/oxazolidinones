@@ -132,7 +132,7 @@ The hydroxymethyl group is the specific modification that defeats Cfr methylatio
 
 ## Where do oxazolidinones bind?
 
-![](oxazolidinone-images/Linezolid_MOA.png){fig-align="center" width="800"}
+![](oxazolidinone-images/linezolid_MOA.png){fig-align="center" width="800"}
 
 ::: aside
 Oxazolidinones block one of the earliest steps in protein synthesis. Chloramphenicol and lincomycin bind in overlapping sites — useful for explaining mechanistic competition observed in vitro [@Colca2003; @Moellering2003].
@@ -145,9 +145,6 @@ Oxazolidinones block one of the earliest steps in protein synthesis. Chloramphen
 - Generally **bacteriostatic** against staphylococci and enterococci; modestly bactericidal against streptococci
 - "Static vs cidal" distinction may be **clinically overrated** — systematic reviews have found no consistent outcome difference
 - Don't withhold linezolid in *S. aureus* bacteremia on cidal-vs-static grounds alone
-
-::: aside
-:::
 
 ::: aside
 [@WaldDickler2018].
@@ -356,7 +353,7 @@ PhLOPSₐ is worth committing to memory. Tedizolid's hydroxymethyl side chain is
 
 <br>
 
-- Driver of efficacy: **f~T\ \>\ MIC~ ≈ 85%** and **AUC₀₋₂₄/MIC 80–120**
+- Driver of efficacy: **f~T \> MIC~ ≈ 85%** and **AUC₀₋₂₄/MIC 80–120**
 - **High** **inter-individual variability** can compromise targets at standard dose
 - **At-risk populations:**
   - Overexposure: renal dysfunction, older age, hepatic failure, low body weight
@@ -829,4 +826,3 @@ The whole pipeline is essentially pushing on two axes: (1) defeating cfr-mediate
 5.  **Toxicity profile** drives long-term decisions — myelosuppression, neuropathy, lactic acidosis, serotonin syndrome
 
 ## References
-
