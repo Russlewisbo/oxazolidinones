@@ -270,15 +270,15 @@ This is why linezolid is not used as empirical monotherapy in nosocomial pneumon
 
 ## Mechanism 2 — ribosomal protein mutations
 
-<br>
-
-![](oxazolidinone-images/linezolid_R_2.png){width="800"}
+![](oxazolidinone-images/resistance_mechanism2.png){fig-align="center" width="800"}
 
 ::: aside
 [@Holzel2010; @Brenciani2022]
 :::
 
 ## Mechanism 3 — *cfr* methyltransferase
+
+![](oxazolidinone-images/resistance_3.png){fig-align="center" width="800"}
 
 <br>
 
@@ -343,6 +343,7 @@ PhLOPSₐ is worth committing to memory. Tedizolid's hydroxymethyl side chain is
 - Metabolized by **oxidation** — minimal CYP450 interaction
 - **65% nonrenal** clearance; **30%** excreted unchanged in urine
 - Two **inactive carboxylic-acid metabolites** in feces
+  - Linezolid undergoes non-CYP3A4 oxidative metabolism, mainly morpholine-ring oxidation/ring opening, producing inactive metabolites A and B. The enzymatic component appears to involve atypical CYP4F enzymes, especially CYP4F3B and CYP4F11, rather than conventional hepatic CYP450 metabolism
 - **Half-life \~5–7 hours** in adults
 - **Hemodialysis removes linezolid** → dose after dialysis
 - **CRRT** also removes drug; no routine dose change recommended
@@ -355,7 +356,7 @@ PhLOPSₐ is worth committing to memory. Tedizolid's hydroxymethyl side chain is
 
 <br>
 
-- Driver of efficacy: **fT \> MIC ≈ 85%** and **AUC₀₋₂₄/MIC 80–120**
+- Driver of efficacy: **f~T\ \>\ MIC~ ≈ 85%** and **AUC₀₋₂₄/MIC 80–120**
 - **High** **inter-individual variability** can compromise targets at standard dose
 - **At-risk populations:**
   - Overexposure: renal dysfunction, older age, hepatic failure, low body weight
@@ -827,6 +828,5 @@ The whole pipeline is essentially pushing on two axes: (1) defeating cfr-mediate
 
 5.  **Toxicity profile** drives long-term decisions — myelosuppression, neuropathy, lactic acidosis, serotonin syndrome
 
-6.  ::: {}
-    ## 
-    :::
+## References
+
